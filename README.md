@@ -1,6 +1,7 @@
 ## Подготовка к запуску
 ### Установка yacc (bison) и lex (flex):
 ```
+$ sudo apt-get update
 $ sudo apt-get install bison flex
 ```
 
