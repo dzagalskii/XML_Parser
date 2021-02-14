@@ -1,0 +1,2045 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+<bookstore>
+   <book category="CHILDREN" type="BOOK">
+      <title>Harry Potter</title>
+      <title>Harry Potter</title>
+
+      <!-- 
+        <title>Harry Potter</title>
+      	<title>Harry Potter</title>
+      	<title>Harry Potter</title>
+      	<title>Harry Potter</title>
+      	<title>Harry Potter</title>
+      	<title>Harry Potter</title>
+      -->
+   </book>
+</bookstore>
+
+<?xml version="1.0"?>
+<package>
+    <name>Lib_ZF_Locale</name>
+    <version>1.12.10.11</version>
+    <stability>stable</stability>
+    <license uri="http://framework.zend.com/license/new-bsd">New BSD</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Zend Framework Locale</summary>
+    <description>Zend Framework Locale splitted from ZF to avoid memory overruns during installation and upgrades</description>
+    <notes>1.12.10.11</notes>
+    <authors><author><name>Magento Enterprise Team</name><user>core</user><email>core@magentocommerce.com</email></author></authors>
+    <date>2017-09-14</date>
+    <time>17:34:26</time>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="mix">Kue Kiti Ntava</title>
+            <title xml:lang="es">Las Aves</title>
+            <editor>Gisela Beckmann</editor>
+            <respStmt>
+               <resp>TEI Encoding</resp>
+               <name>Jack T. Bowers</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc><!-- 
+            © 2014 por el Instituto Lingüístico de Verano, A.C. Derechos reservados conforme a la ley.
+Las siguientes imágenes provienen de la colección de arte
+para ilustraciones de la Universidad del Sur de Florida, "http://etc.usf.edu/clipart", y son usadas con permiso:
+Halcón Peregrino, p. 5; Halcón Esmerejón, p. 5; Tordo Sargento, p. 7; Codorniz Arlequín, p. 10; Chara Copetona, p. 12; Papamoscas, p. 13; Bisbita de Agua, p. 22
+Las siguientes imágenes provienen del CD Bird Illustrations de Dover Electronic Clip Art® y son usadas con permiso: Tecolote Llanero, p. 3; Águila Real, p. 4;
+Aguililla Colicorta, p. 4; Mímido Gris, p. 12;
+Gorrión Doméstico, p. 20; Trepadorcito Americano, p. 20
+Las demás ilustraciones son propiedad del Instituto Lingüístico de Verano A.C.,
+y son usadas con el permiso correspondiente.
+Primera edición
+Las Aves
+Mixteco de Mixtepec y español mix 14-097 .4C México, D.F. 2014
+            -->
+            <p>Information about the source<ref/>
+            </p>
+         </sourceDesc>
+         <!-- 
+         NEED TO FIND AUTOMATED WAY OF RETRIEVING URIS!
+         http://babelnet.org/guide
+         -->
+         <!-- 
+         Ask author about the variants! if they are location related or other!!
+         -->
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><!-- p3 -->
+            <list>
+               <item>
+                  <graphic url="Aves-01.png"/>
+                  <seg xml:id="d1e35" xml:lang="mix" type="compound">
+                     <w xml:id="d1e36">chumi</w>
+                     <w xml:id="d1e38">lunchi</w>
+                  </seg>
+                  <seg xml:id="d1e40" xml:lang="es" type="compound">
+                     <w xml:id="d1e41">tecolote</w>
+                     <w xml:id="d1e43">llanero</w>
+                  </seg>
+                  <seg xml:id="d1e45" xml:lang="es" type="compound">
+                     <w xml:id="d1e46">tecolote</w>
+                     <w xml:id="d1e48">zancón</w>
+                  </seg>
+                  <linkGrp type="translation">
+                     <link target="#d1e35 #d1e40"/>
+                     <link target="#d1e35 #d1e45"/>
+                  </linkGrp>
+                  <!-- https://www.wikidata.org/wiki/Q1897132 -->
+               </item>
+               <item>
+                  <graphic url="Aves-02.png"/>
+                  <seg xml:id="d1e53" xml:lang="mix" type="compound">
+                     <w xml:id="d1e54">chumi</w>
+                     <w xml:id="d1e56">xini</w>
+                     <w xml:id="d1e58">kaꞌnu</w>
+                  </seg>
+                  <seg xml:id="d1e60" xml:lang="es" type="compound">
+                     <w xml:id="d1e61">tecolote</w>
+                  </seg>
+                  <seg xml:id="d1e63" xml:lang="es" type="compound">
+                     <w xml:id="d1e64">búho</w>
+                     <w xml:id="d1e66">cornado</w>
+                  </seg>
+                  <linkGrp type="translation">
+                     <link target="#d1e53 #d1e60"/>
+                     <link target="#d1e53 #d1e63"/>
+                  </linkGrp>
+                  <spanGrp type="translation">
+                     <span target="#d1e53 #d1e60"/>
+                     <span target="#d1e53 #d1e63"/>
+                  </spanGrp>
+                  <!-- GH Owl
+                  https://www.wikidata.org/wiki/Q81515
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-03.png"/>
+                  <seg xml:id="d1e71" xml:lang="mix">
+                     <w xml:id="d1e72">chumi</w>
+                     <w xml:id="d1e74">sai</w>
+                  </seg>
+                  <seg xml:id="d1e76" xml:lang="es">
+                     <w xml:id="d1e77">tecolotito</w>
+                  </seg>
+                  <!-- Northern Saw-whet Owl
+                     https://www.wikidata.org/wiki/Q638019 -->
+               </item>
+               <item>
+                  <graphic url="Aves-04.png"/>
+                  <seg xml:id="d1e82" xml:lang="mix">
+                     <w xml:id="d1e83">kasa</w>
+                     <w xml:id="d1e85">kutu</w>
+                  </seg>
+                  <seg xml:id="d1e87" xml:lang="es">
+                     <w xml:id="d1e88">tecolote</w>
+                     <w xml:id="d1e90">rítmico</w>
+                  </seg>
+                  <!-- Whiskered screech owl
+                     https://www.wikidata.org/wiki/Q1147207
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-05.png"/>
+                  <seg xml:id="d1e95" xml:lang="mix">
+                     <w xml:id="d1e96">kukuvi</w>
+                  </seg>
+                  <seg xml:id="d1e98" xml:lang="es">
+                     <w xml:id="d1e99">tapacamino</w>
+                  </seg>
+                  <!-- 
+                  ? Nyctibius jamaicensis
+                  https://www.wikidata.org/wiki/Q930457
+                  
+                  ? Phalaenoptilus nuttallii
+                  Common Poorwill
+                  (Tapacamino tevii,
+                  https://www.wikidata.org/wiki/Q930457
+                  -->
+               </item>
+            </list>
+         </div>
+         <div><!-- p4 -->
+            <list>
+               <item>
+                  <graphic url="Aves-06.png"/>
+                  <seg xml:id="d1e107" xml:lang="mix">
+                     <w xml:id="d1e108">kiti</w>
+                     <w xml:id="d1e110">yaꞌa</w>
+                  </seg>
+                  <!-- synonyms or regional difference? -->
+                  <seg xml:id="d1e113" xml:lang="mix">
+                     <w xml:id="d1e114">yaꞌa</w>
+                     <w xml:id="d1e116">naꞌnu</w>
+                  </seg>
+                  <!-- synonyms or regional difference? -->
+                  <seg xml:id="d1e119" xml:lang="es">
+                     <w xml:id="d1e120">águila</w>
+                     <w xml:id="d1e122">real</w>
+                  </seg>
+                  <!-- Golden Eagle
+                  https://www.wikidata.org/wiki/Q41181
+                  -->
+                  <item/>
+                  <!-- TEST ANNOTATION-->
+                  <linkGrp type="translation"> <!-- TRANSLATION LABELING (why don't links show up as valid in Author mode?)-->
+                     <link target="#d1e77 #d1e83"/>
+                     <link target="#d1e80 #d1e83"/>
+                  </linkGrp>
+                  <linkGrp type="semantics" target="https://www.wikidata.org/wiki/Q41181">
+                     <link target="#d1e77 #d1e83 #d1e80"/>
+                  </linkGrp>
+               </item>
+               <item>
+                  <graphic url="Aves-07.png"/>
+                  <seg xml:id="d1e135" xml:lang="mix">
+                     <w xml:id="d1e136">tasu</w>
+                     <w xml:id="d1e138">lunchi</w>
+                  </seg>
+                  <!-- synonyms or regional difference? -->
+                  <seg xml:id="d1e141" xml:lang="mix">
+                     <w xml:id="d1e142">litu</w>
+                  </seg>
+                  <!-- synonyms or regional difference? -->
+                  <seg xml:id="d1e145" xml:lang="mix">
+                     <w xml:id="d1e146">litsi</w>
+                  </seg>
+                  <!-- synonyms or regional difference? -->
+                  <seg xml:id="d1e149" xml:lang="es">
+                     <w xml:id="d1e150">halcón</w>
+                     <w xml:id="d1e152">cernícalo</w>
+                  </seg>
+                  <!-- 
+                  American Kestral
+                  https://www.wikidata.org/wiki/Q651545
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-08.png"/>
+                  <seg xml:id="d1e157" xml:lang="mix">
+                     <w xml:id="d1e158">yaꞌa</w>
+                     <w xml:id="d1e160">choko</w>
+                  </seg>
+                  <seg xml:id="d1e162" xml:lang="es">
+                     <w xml:id="d1e163">aguililla</w>
+                     <w xml:id="d1e165">colicorta</w>
+                  </seg>
+                  <!-- Short-tailed Hawk
+                     https://www.wikidata.org/wiki/Q586194
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-09.png"/>
+                  <seg xml:id="d1e170" xml:lang="mix">
+                     <w xml:id="d1e171">tasu</w>
+                  </seg>
+                  <seg xml:id="d1e173" xml:lang="es">
+                     <w xml:id="d1e174">halcón</w>
+                  </seg>
+                  <!-- 
+                  Falcon
+                  https://www.wikidata.org/wiki/Q43489
+                  -->
+               </item>
+            </list>
+         </div>
+         <div><!-- p5 -->
+            <list>
+               <item>
+                  <graphic url="Aves-10.png"/>
+                  <seg xml:id="d1e182" xml:lang="mix">
+                     <w xml:id="d1e183">xiꞌan</w>
+                     <w xml:id="d1e185">lunchi</w>
+                  </seg>
+                  <seg xml:id="d1e187" xml:lang="es">
+                     <w xml:id="d1e188">gavilán</w>
+                     <w xml:id="d1e190">pechirufo</w>
+                     <w xml:id="d1e192">menor</w>
+                  </seg>
+                  <seg xml:id="d1e194" xml:lang="es">
+                     <w xml:id="d1e195">gavilán</w>
+                     <w xml:id="d1e197">pajarero</w>
+                  </seg>
+                  <!-- 
+                     Sharp-shinned hawk
+                  https://www.wikidata.org/wiki/Q386569
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-11.png"/>
+                  <seg xml:id="d1e202" xml:lang="mix">
+                     <w xml:id="d1e203">ñaꞌmi</w>
+                     <w xml:id="d1e205">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e207" xml:lang="es">
+                     <w xml:id="d1e208">aguililla</w>
+                     <w xml:id="d1e210">negra</w>
+                     <w xml:id="d1e212">menor</w>
+                  </seg>
+                  <!-- Common Black Hawk
+                     https://www.wikidata.org/wiki/Q1267120
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-12.png"/>
+                  <seg xml:id="d1e217" xml:lang="mix">
+                     <w xml:id="d1e218">xiꞌan</w>
+                     <w xml:id="d1e220">tintuyu</w>
+                     <w xml:id="d1e222">lunchi</w>
+                  </seg>
+                  <seg xml:id="d1e224" xml:lang="es">
+                     <w xml:id="d1e225">halcón</w>
+                     <w xml:id="d1e227">esmerejón</w>
+                  </seg>
+                  <!-- 
+                  Merlin
+                  https://www.wikidata.org/wiki/Q131918
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-13.png"/>
+                  <seg xml:id="d1e232" xml:lang="mix">
+                     <w xml:id="d1e233">xiꞌan</w>
+                     <w xml:id="d1e235">tintuyu</w>
+                  </seg>
+                  <seg xml:id="d1e237" xml:lang="es">
+                     <w xml:id="d1e238">halcón</w>
+                     <w xml:id="d1e240">peregrino</w>
+                  </seg>
+                  <seg xml:id="d1e242" xml:lang="es">
+                     <w xml:id="d1e243">halcón</w>
+                     <w xml:id="d1e245">pollero</w>
+                  </seg>
+                  <!-- alternate species!? -->
+                  <!--  Peregrin Falcon ?
+                     https://www.wikidata.org/wiki/Q30535
+                  -->
+               </item>
+               <item>
+                  <graphic url="Aves-14.png"/>
+                  <seg xml:id="d1e251" xml:lang="mix">
+                     <w xml:id="d1e252">xiꞌan</w>
+                     <w xml:id="d1e254">ñuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e256" xml:lang="es">
+                     <w xml:id="d1e257">aguililla</w>
+                     <w xml:id="d1e259">gris</w>
+                  </seg>
+                  <!--Grey Hawk  https://www.wikidata.org/wiki/Q1260070-->
+                  <seg xml:id="d1e262" xml:lang="es">
+                     <w xml:id="d1e263">gavilán</w>
+                     <w xml:id="d1e265">barrado</w>
+                  </seg>
+                  <!-- Barred Hawk https://www.wikidata.org/wiki/Q1270132 -->
+               </item>
+            </list>
+         </div>
+         <div><!-- p6 -->
+            <list>
+               <item>
+                  <graphic url="Aves-15.png"/>
+                  <seg xml:id="d1e273" xml:lang="mix">
+                     <w xml:id="d1e274">lochi</w>
+                     <w xml:id="d1e276">nii</w>
+                  </seg>
+                  <seg xml:id="d1e278" xml:lang="es">
+                     <w xml:id="d1e279">aura</w>
+                     <w xml:id="d1e281">cabecirroja</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-16.png"/>
+                  <seg xml:id="d1e285" xml:lang="mix">
+                     <w xml:id="d1e286">lochi</w>
+                     <w xml:id="d1e288">nchaꞌi</w>
+                  </seg>
+                  <seg xml:id="d1e290" xml:lang="es">
+                     <w xml:id="d1e291">zopilote</w>
+                     <w xml:id="d1e293">negro</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-17.png"/>
+                  <seg xml:id="d1e297" xml:lang="mix">
+                     <w xml:id="d1e298">tsikoꞌo</w>
+                  </seg>
+                  <seg xml:id="d1e300" xml:lang="es">
+                     <w xml:id="d1e301">caracara</w>
+                     <w xml:id="d1e303">quebranta</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-18.png"/>
+                  <seg xml:id="d1e307" xml:lang="mix">
+                     <w xml:id="d1e308">tsatu</w>
+                     <w xml:id="d1e310">yaa</w>
+                  </seg>
+                  <seg xml:id="d1e312" xml:lang="es">
+                     <w xml:id="d1e313">aguililla</w>
+                     <w xml:id="d1e315">coliblanca</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p7 -->
+            <list>
+               <item>
+                  <graphic url="Aves-19.png"/>
+                  <seg xml:id="d1e322" xml:lang="mix">
+                     <w xml:id="d1e323">tikunchi</w>
+                  </seg>
+                  <seg xml:id="d1e325" xml:lang="es">
+                     <w xml:id="d1e326">tordo</w>
+                     <w xml:id="d1e328">ojirojo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-20.png"/>
+                  <seg xml:id="d1e332" xml:lang="mix">
+                     <w xml:id="d1e333">tikunchi</w>
+                     <w xml:id="d1e335">soko</w>
+                     <w xml:id="d1e337">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e339" xml:lang="es">
+                     <w xml:id="d1e340">tordo</w>
+                     <w xml:id="d1e342">sargento</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-21.png"/>
+                  <seg xml:id="d1e346" xml:lang="mix">
+                     <w xml:id="d1e347">saa</w>
+                     <w xml:id="d1e349">ncha</w>'<w xml:id="d1e352">i</w>
+                  </seg>
+                  <seg xml:id="d1e354" xml:lang="es">
+                     <w xml:id="d1e355">zanate</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-22.png"/>
+                  <seg xml:id="d1e359" xml:lang="mix">
+                     <w xml:id="d1e360">tikaka</w>
+                  </seg>
+                  <seg xml:id="d1e362" xml:lang="es">
+                     <w xml:id="d1e363">cuervo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-23.png"/>
+                  <seg xml:id="d1e367" xml:lang="mix">
+                     <w xml:id="d1e368">saa</w>
+                     <w xml:id="d1e370">tiꞌla</w>
+                  </seg>
+                  <seg xml:id="d1e372" xml:lang="mix">
+                     <w xml:id="d1e373">saa</w>
+                     <w xml:id="d1e375">tuli</w>
+                  </seg>
+                  <seg xml:id="d1e377" xml:lang="es">
+                     <w xml:id="d1e378">garrapatero</w>
+                     <w xml:id="d1e380">pijuy</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p8 -->
+            <list>
+               <item>
+                  <graphic url="Aves-24.png"/>
+                  <seg xml:id="d1e387" xml:lang="mix">
+                     <w xml:id="d1e388">sata</w>
+                  </seg>
+                  <seg xml:id="d1e390" xml:lang="es">
+                     <w xml:id="d1e391">paloma</w>
+                     <w xml:id="d1e393">doméstic</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-25.png"/>
+                  <seg xml:id="d1e397" xml:lang="mix">
+                     <w xml:id="d1e398">nchuu</w>
+                     <w xml:id="d1e400">nukuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e402" xml:lang="mix">
+                     <w xml:id="d1e403">nchuu</w>
+                     <w xml:id="d1e405">tsaꞌa</w>
+                     <w xml:id="d1e407">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e409" xml:lang="es">
+                     <w xml:id="d1e410">paloma</w>
+                     <w xml:id="d1e412">perdiz</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-26.png"/>
+                  <seg xml:id="d1e416" xml:lang="mix">
+                     <w xml:id="d1e417">nchuu</w>
+                     <w xml:id="d1e419">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e421" xml:lang="mix">
+                     <w xml:id="d1e422">nchuu</w>
+                     <w xml:id="d1e424">yaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e426" xml:lang="es">
+                     <w xml:id="d1e427">paloma</w>
+                     <w xml:id="d1e429">arroyera</w>
+                  </seg>
+                  <seg xml:id="d1e431" xml:lang="es">
+                     <w xml:id="d1e432">paloma</w>
+                     <w xml:id="d1e434">turca</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-27.png"/>
+                  <seg xml:id="d1e438" xml:lang="mix">
+                     <w xml:id="d1e439">lakuku</w>
+                  </seg>
+                  <seg xml:id="d1e441" xml:lang="es">
+                     <w xml:id="d1e442">tortolita</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-28.png"/>
+                  <seg xml:id="d1e446" xml:lang="mix">
+                     <w xml:id="d1e447">nchuu</w>
+                     <w xml:id="d1e449">lunchi</w>
+                  </seg>
+                  <seg xml:id="d1e451" xml:lang="es">
+                     <w xml:id="d1e452">tórtola</w>
+                     <w xml:id="d1e454">común</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p9 -->
+            <list>
+               <item>
+                  <graphic url="Aves-29.png"/>
+                  <seg xml:id="d1e461" xml:lang="mix">
+                     <w xml:id="d1e462">nchuu</w>
+                     <w xml:id="d1e464">kava</w>
+                  </seg>
+                  <seg xml:id="d1e466" xml:lang="es">
+                     <w xml:id="d1e467">paloma</w>
+                     <w xml:id="d1e469">morada</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-30.png"/>
+                  <seg xml:id="d1e473" xml:lang="mix">
+                     <w xml:id="d1e474">nchuu</w>
+                     <w xml:id="d1e476">kuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e478" xml:lang="mix">
+                     <w xml:id="d1e479">nchuu</w>
+                     <w xml:id="d1e481">nuu</w>
+                     <w xml:id="d1e483">kuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e485" xml:lang="es">
+                     <w xml:id="d1e486">paloma</w>
+                     <w xml:id="d1e488">huilota</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-31.png"/>
+                  <seg xml:id="d1e492" xml:lang="mix">
+                     <w xml:id="d1e493">nchuu</w>
+                     <w xml:id="d1e495">xchila</w>
+                  </seg>
+                  <seg xml:id="d1e497" xml:lang="es">
+                     <w xml:id="d1e498">paloma</w>
+                     <w xml:id="d1e500">doméstica</w>
+                     <w xml:id="d1e502">con</w>
+                     <w xml:id="d1e504">collar</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-32.png"/>
+                  <seg xml:id="d1e508" xml:lang="mix">
+                     <w xml:id="d1e509">nchuu</w>
+                     <w xml:id="d1e511">ntsitsi</w>
+                  </seg>
+                  <seg xml:id="d1e513" xml:lang="es">
+                     <w xml:id="d1e514">pintu</w>
+                     <w xml:id="d1e516">paloma</w>
+                     <w xml:id="d1e518">aliblanca</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p10 -->
+            <list>
+               <item>
+                  <graphic url="Aves-33.png"/>
+                  <seg xml:id="d1e525" xml:lang="mix">
+                     <w xml:id="d1e526">koni</w>
+                     <w xml:id="d1e528">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e530" xml:lang="es">
+                     <w xml:id="d1e531">pava</w>
+                     <w xml:id="d1e533">cojolita</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-34.png"/>
+                  <seg xml:id="d1e537" xml:lang="mix">
+                     <w xml:id="d1e538">lachacha</w>
+                  </seg>
+                  <seg xml:id="d1e540" xml:lang="es">
+                     <w xml:id="d1e541">chachalaca</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-35.png"/>
+                  <seg xml:id="d1e545" xml:lang="mix">
+                     <w xml:id="d1e546">kañuu</w>
+                  </seg>
+                  <seg xml:id="d1e548" xml:lang="es">
+                     <w xml:id="d1e549">codorniz</w>
+                     <w xml:id="d1e551">arlequín</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-36.png"/>
+                  <seg xml:id="d1e555" xml:lang="mix">
+                     <w xml:id="d1e556">kañuu</w>
+                  </seg>
+                  <seg xml:id="d1e558" xml:lang="es">
+                     <w xml:id="d1e559">codorniz</w>
+                     <w xml:id="d1e561">cotuí</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-37.png"/>
+                  <seg xml:id="d1e565" xml:lang="mix">
+                     <w xml:id="d1e566">chuun</w>
+                     <w xml:id="d1e568">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e570" xml:lang="es">
+                     <w xml:id="d1e571">gallina</w>
+                     <w xml:id="d1e573">del</w>
+                     <w xml:id="d1e575">monte</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p11 -->
+            <list>
+               <item>
+                  <graphic url="Aves-38.png"/>
+                  <seg xml:id="d1e582" xml:lang="mix">
+                     <w xml:id="d1e583">saa</w>
+                     <w xml:id="d1e585">miꞌncha</w>
+                  </seg>
+                  <seg xml:id="d1e587" xml:lang="es">
+                     <w xml:id="d1e588">cuitlacoche</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-39.png"/>
+                  <seg xml:id="d1e592" xml:lang="mix">
+                     <w xml:id="d1e593">saa</w>
+                     <w xml:id="d1e595">ñuꞌma</w>
+                  </seg>
+                  <seg xml:id="d1e597" xml:lang="es">
+                     <w xml:id="d1e598">primavera</w>
+                     <w xml:id="d1e600">zorzal</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-40.png"/>
+                  <seg xml:id="d1e604" xml:lang="mix">
+                     <w xml:id="d1e605">lasuꞌun</w>
+                  </seg>
+                  <seg xml:id="d1e607" xml:lang="es">
+                     <w xml:id="d1e608">correcaminos</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-41.png"/>
+                  <seg xml:id="d1e612" xml:lang="mix">
+                     <w xml:id="d1e613">lasimi</w>
+                  </seg>
+                  <seg xml:id="d1e615" xml:lang="es">
+                     <w xml:id="d1e616">rascador</w>
+                     <w xml:id="d1e618">oaxaqueño</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-42.png"/>
+                  <seg xml:id="d1e622" xml:lang="mix">
+                     <w xml:id="d1e623">saa</w>
+                     <w xml:id="d1e625">ntaka</w>
+                  </seg>
+                  <seg xml:id="d1e627" xml:lang="mix">
+                     <w xml:id="d1e628">lasimi</w>
+                  </seg>
+                  <seg xml:id="d1e630" xml:lang="es">
+                     <w xml:id="d1e631">rascador</w>
+                     <w xml:id="d1e633">pardo</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p12 -->
+            <list>
+               <item>
+                  <graphic url="Aves-43.png"/>
+                  <seg xml:id="d1e640" xml:lang="mix">
+                     <w xml:id="d1e641">kuili</w>
+                  </seg>
+                  <seg xml:id="d1e643" xml:lang="es">
+                     <w xml:id="d1e644">chara</w>
+                     <w xml:id="d1e646">azuleja</w>
+                  </seg>
+                  <seg xml:id="d1e648" xml:lang="es">
+                     <w xml:id="d1e649">chara</w>
+                     <w xml:id="d1e651">pechirrayada</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-44.png"/>
+                  <seg xml:id="d1e655" xml:lang="mix">
+                     <w xml:id="d1e656">saa</w>
+                     <w xml:id="d1e658">ntakuatu</w>
+                  </seg>
+                  <seg xml:id="d1e660" xml:lang="mix">
+                     <w xml:id="d1e661">saa</w>
+                     <w xml:id="d1e663">veñuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e665" xml:lang="es">
+                     <w xml:id="d1e666">cenzontle</w>
+                     <w xml:id="d1e668">aliblanco</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-45.png"/>
+                  <seg xml:id="d1e672" xml:lang="mix">
+                     <w xml:id="d1e673">saa</w>
+                     <w xml:id="d1e675">nchaa</w>
+                     <w xml:id="d1e677">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e679" xml:lang="es">
+                     <w xml:id="d1e680">chara</w>
+                     <w xml:id="d1e682">copetona</w>
+                  </seg>
+                  <seg xml:id="d1e684" xml:lang="es">
+                     <w xml:id="d1e685">chara</w>
+                     <w xml:id="d1e687">crestada</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-46.png"/>
+                  <seg xml:id="d1e691" xml:lang="mix">
+                     <w xml:id="d1e692">saa</w>
+                     <w xml:id="d1e694">vilu</w>
+                  </seg>
+                  <seg xml:id="d1e696" xml:lang="es">
+                     <w xml:id="d1e697">mímido</w>
+                     <w xml:id="d1e699">gris</w>
+                  </seg>
+                  <seg xml:id="d1e701" xml:lang="es">
+                     <w xml:id="d1e702">pájaro</w>
+                     <w xml:id="d1e704">gato</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-47.png"/>
+                  <seg xml:id="d1e708" xml:lang="mix">
+                     <w xml:id="d1e709">saa</w>
+                     <w xml:id="d1e711">nuu</w>
+                     <w xml:id="d1e713">nchaa</w>
+                  </seg>
+                  <seg xml:id="d1e715" xml:lang="mix">
+                     <w xml:id="d1e716">saa</w>
+                     <w xml:id="d1e718">nchaa</w>
+                  </seg>
+                  <seg xml:id="d1e720" xml:lang="emix">
+                     <w xml:id="d1e721">tsili</w>
+                  </seg>
+                  <seg xml:id="d1e723" xml:lang="es">
+                     <w xml:id="d1e724">cenzontle</w>
+                     <w xml:id="d1e726">azul</w>
+                  </seg>
+                  <seg xml:id="d1e728" xml:lang="es">
+                     <w xml:id="d1e729">mulato</w>
+                     <w xml:id="d1e731">común</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p13 -->
+            <list>
+               <item>
+                  <graphic url="Aves-48.png"/>
+                  <seg xml:id="d1e738" xml:lang="mix">
+                     <w xml:id="d1e739">saa</w>
+                     <w xml:id="d1e741">kuun</w>
+                     <w xml:id="d1e743">savi</w>
+                  </seg>
+                  <seg xml:id="d1e745" xml:lang="es">
+                     <w xml:id="d1e746">tengofrío</w>
+                     <w xml:id="d1e748">grande</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-49.png"/>
+                  <seg xml:id="d1e752" xml:lang="mix">
+                     <w xml:id="d1e753">xini</w>
+                     <w xml:id="d1e755">nkava</w>
+                  </seg>
+                  <seg xml:id="d1e757" xml:lang="es">
+                     <w xml:id="d1e758">trogón</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-50.png"/>
+                  <seg xml:id="d1e762" xml:lang="mix">
+                     <w xml:id="d1e763">saa</w>
+                     <w xml:id="d1e765">friu</w>
+                  </seg>
+                  <seg xml:id="d1e767" xml:lang="es">
+                     <w xml:id="d1e768">papamoscas</w>
+                     <w xml:id="d1e770">copetón</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-51.png"/>
+                  <seg xml:id="d1e774" xml:lang="mix">
+                     <w xml:id="d1e775">tixiñu</w>
+                  </seg>
+                  <seg xml:id="d1e777" xml:lang="mix">
+                     <w xml:id="d1e778">saa</w>
+                     <w xml:id="d1e780">kula</w>
+                  </seg>
+                  <seg xml:id="d1e782" xml:lang="es">
+                     <w xml:id="d1e783">capulinero</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-52.png"/>
+                  <seg xml:id="d1e787" xml:lang="mix">
+                     <w xml:id="d1e788">saa</w>
+                     <w xml:id="d1e790">xini</w>
+                     <w xml:id="d1e792">tachi</w>
+                  </seg>
+                  <seg xml:id="d1e794" xml:lang="es">
+                     <w xml:id="d1e795">verdugo</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p14 -->
+            <list>
+               <item>
+                  <graphic url="Aves-53.png"/>
+                  <seg xml:id="d1e803" xml:lang="mix">
+                     <w xml:id="d1e804">tixikua</w>
+                     <w xml:id="d1e806">naꞌnu</w>
+                  </seg>
+                  <seg xml:id="d1e808" xml:lang="es">
+                     <w xml:id="d1e809">vencejo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-54.png"/>
+                  <seg xml:id="d1e813" xml:lang="mix">
+                     <w xml:id="d1e814">ntintatsa</w>
+                  </seg>
+                  <seg xml:id="d1e816" xml:lang="mix">
+                     <w xml:id="d1e817">ntikaan</w>
+                  </seg>
+                  <seg xml:id="d1e819" xml:lang="mix">
+                     <w xml:id="d1e820">lakaan</w>
+                  </seg>
+                  <seg xml:id="d1e822" xml:lang="es">
+                     <w xml:id="d1e823">korro</w>
+                  </seg>
+                  <seg xml:id="d1e825" xml:lang="es">
+                     <w xml:id="d1e826">momoto</w>
+                  </seg>
+                  <seg xml:id="d1e828" xml:lang="es">
+                     <w xml:id="d1e829">turco</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-55.png"/>
+                  <seg xml:id="d1e833" xml:lang="mix">
+                     <w xml:id="d1e834">saa</w>
+                     <w xml:id="d1e836">kuaan</w>
+                     <w xml:id="d1e838">ntipintu</w>
+                  </seg>
+                  <seg xml:id="d1e840" xml:lang="es">
+                     <w xml:id="d1e841">picogrueso</w>
+                     <w xml:id="d1e843">amarillo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-56.png"/>
+                  <seg xml:id="d1e847" xml:lang="mix">
+                     <w xml:id="d1e848">stiꞌin</w>
+                     <w xml:id="d1e850">kuaan</w>
+                  </seg>
+                  <seg xml:id="d1e852" xml:lang="es">
+                     <w xml:id="d1e853">picogrueso</w>
+                     <w xml:id="d1e855">pechicafé</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-57.png"/>
+                  <seg xml:id="d1e859" xml:lang="mix">
+                     <w xml:id="d1e860">stiꞌin</w>
+                     <w xml:id="d1e862">nchaa</w>
+                  </seg>
+                  <seg xml:id="d1e864" xml:lang="es">
+                     <w xml:id="d1e865">picogrueso</w>
+                     <w xml:id="d1e867">azul</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p15 -->
+            <list>
+               <item>
+                  <graphic url="Aves-58.png"/>
+                  <seg xml:id="d1e874" xml:lang="mix">
+                     <w xml:id="d1e875">tixikua</w>
+                  </seg>
+                  <seg xml:id="d1e877" xml:lang="es">
+                     <w xml:id="d1e878">golondrina</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-59.png"/>
+                  <seg xml:id="d1e882" xml:lang="mix">
+                     <w xml:id="d1e883">letsa</w>
+                  </seg>
+                  <seg xml:id="d1e885" xml:lang="mix">
+                     <w xml:id="d1e886">saa</w>
+                     <w xml:id="d1e888">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e890" xml:lang="mix">
+                     <w xml:id="d1e891">saa</w>
+                     <w xml:id="d1e893">kusu</w>
+                     <w xml:id="d1e895">kiti</w>
+                     <w xml:id="d1e897">luu</w>
+                  </seg>
+                  <seg xml:id="d1e899" xml:lang="es">
+                     <w xml:id="d1e900">mosquero</w>
+                     <w xml:id="d1e902">cardenalito</w>
+                  </seg>
+                  <seg xml:id="d1e904" xml:lang="es">
+                     <w xml:id="d1e905">venturilla</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-60.png"/>
+                  <seg xml:id="d1e909" xml:lang="mix">
+                     <w xml:id="d1e910">tivatsa</w>
+                  </seg>
+                  <seg xml:id="d1e912" xml:lang="es">
+                     <w xml:id="d1e913">golondrina</w>
+                     <w xml:id="d1e915">cariblanca</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-61.png"/>
+                  <seg xml:id="d1e919" xml:lang="mix">
+                     <w xml:id="d1e920">saa</w>
+                     <w xml:id="d1e922">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e924" xml:lang="mix">
+                     <w xml:id="d1e925">saa</w>
+                     <w xml:id="d1e927">chaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e929" xml:lang="es">
+                     <w xml:id="d1e930">tangara</w>
+                     <w xml:id="d1e932">roja</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-62.png"/>
+                  <seg xml:id="d1e936" xml:lang="mix">
+                     <w xml:id="d1e937">saa</w>
+                     <w xml:id="d1e939">kuaan</w>
+                     <w xml:id="d1e941">xini</w>
+                     <w xml:id="d1e943">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e945" xml:lang="es">
+                     <w xml:id="d1e946">tangara</w>
+                     <w xml:id="d1e948">aliblanco</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p16 -->
+            <list>
+               <item>
+                  <graphic url="Aves-63.png"/>
+                  <seg xml:id="d1e955" xml:lang="mix">
+                     <w xml:id="d1e956">xchio</w>
+                  </seg>
+                  <seg xml:id="d1e958" xml:lang="mix">
+                     <w xml:id="d1e959">saa</w>
+                     <w xml:id="d1e961">kuaan</w>
+                  </seg>
+                  <seg xml:id="d1e963" xml:lang="es">
+                     <w xml:id="d1e964">semillerito</w>
+                     <w xml:id="d1e966">collarejo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-64.png"/>
+                  <seg xml:id="d1e970" xml:lang="mix">
+                     <w xml:id="d1e971">saa</w>
+                     <w xml:id="d1e973">krista</w>
+                  </seg>
+                  <seg xml:id="d1e975" xml:lang="mix">
+                     <w xml:id="d1e976">saa</w>
+                     <w xml:id="d1e978">lirru</w>
+                  </seg>
+                  <seg xml:id="d1e980" xml:lang="es">
+                     <w xml:id="d1e981">pavito</w>
+                     <w xml:id="d1e983">aliblanco</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-65.png"/>
+                  <seg xml:id="d1e987" xml:lang="mix">
+                     <w xml:id="d1e988">saa</w>
+                     <w xml:id="d1e990">pintu</w>
+                  </seg>
+                  <seg xml:id="d1e992" xml:lang="es">
+                     <w xml:id="d1e993">chipe</w>
+                     <w xml:id="d1e995">negriamarillo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-66.png"/>
+                  <seg xml:id="d1e999" xml:lang="mix">
+                     <w xml:id="d1e1000">saa</w>
+                     <w xml:id="d1e1002">tirriti</w>
+                  </seg>
+                  <seg xml:id="d1e1004" xml:lang="mix">
+                     <w xml:id="d1e1005">chipe</w>
+                     <w xml:id="d1e1007">grupidorado</w>
+                  </seg>
+                  <seg xml:id="d1e1009" xml:lang="es">
+                     <w xml:id="d1e1010">verdín</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-67.png"/>
+                  <seg xml:id="d1e1014" xml:lang="mix">
+                     <w xml:id="d1e1015">saa</w>
+                     <w xml:id="d1e1017">tsika</w>
+                     <w xml:id="d1e1019">nuu</w>
+                     <w xml:id="d1e1021">saꞌa</w>
+                     <w xml:id="d1e1023">kuaan</w>
+                  </seg>
+                  <seg xml:id="d1e1025" xml:lang="mix">
+                     <w xml:id="d1e1026">saa</w>
+                     <w xml:id="d1e1028">nuu</w>
+                     <w xml:id="d1e1030">saꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e1032" xml:lang="es">
+                     <w xml:id="d1e1033">monjita</w>
+                     <w xml:id="d1e1035">elegante</w>
+                  </seg>
+                  <seg xml:id="d1e1037" xml:lang="es">
+                     <w xml:id="d1e1038">eufonia</w>
+                     <w xml:id="d1e1040">gorriazul</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-68.png"/>
+                  <seg xml:id="d1e1044" xml:lang="mix">
+                     <w xml:id="d1e1045">chariki</w>
+                     <w xml:id="d1e1047">kuaan</w>
+                  </seg>
+                  <seg xml:id="d1e1049" xml:lang="es">
+                     <w xml:id="d1e1050">chipe</w>
+                     <w xml:id="d1e1052">corona</w>
+                     <w xml:id="d1e1054">negra</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p17 -->
+            <list>
+               <item>
+                  <graphic url="Aves-69.png"/>
+                  <seg xml:id="d1e1061" xml:lang="mix">
+                     <w xml:id="d1e1062">saa</w>
+                     <w xml:id="d1e1064">tika</w>
+                     <w xml:id="d1e1066">yoko</w>
+                     <w xml:id="d1e1068">itu</w>
+                  </seg>
+                  <seg xml:id="d1e1070" xml:lang="mix">
+                     <w xml:id="d1e1071">saa</w>
+                     <w xml:id="d1e1073">kuaan</w>
+                  </seg>
+                  <!-- ambig with bolsero -->
+                  <seg xml:id="d1e1076" xml:lang="es">
+                     <w xml:id="d1e1077">jilguero</w>
+                     <w xml:id="d1e1079">dorsioscuro</w>
+                  </seg>
+                  <seg xml:id="d1e1081" xml:lang="es">
+                     <w xml:id="d1e1082">dominico</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-70.png"/>
+                  <seg xml:id="d1e1086" xml:lang="mix">
+                     <w xml:id="d1e1087">saa</w>
+                     <w xml:id="d1e1089">tusava</w>
+                  </seg>
+                  <seg xml:id="d1e1091" xml:lang="mix">
+                     <w xml:id="d1e1092">saa</w>
+                     <w xml:id="d1e1094">kuaan</w>
+                  </seg>
+                  <!-- ambig with dominico -->
+                  <seg xml:id="d1e1097" xml:lang="es">
+                     <w xml:id="d1e1098">calandria</w>
+                  </seg>
+                  <seg xml:id="d1e1100" xml:lang="es">
+                     <w xml:id="d1e1101">bolsero</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-71.png"/>
+                  <seg xml:id="d1e1105" xml:lang="mix">
+                     <w xml:id="d1e1106">saa</w>
+                     <w xml:id="d1e1108">nuu</w>
+                     <w xml:id="d1e1110">kuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e1112" xml:lang="mix">
+                     <w xml:id="d1e1113">saa</w>
+                     <w xml:id="d1e1115">kuaan</w>
+                  </seg>
+                  <seg xml:id="d1e1117" xml:lang="es">
+                     <w xml:id="d1e1118">vireo</w>
+                     <w xml:id="d1e1120">dorado</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-72.png"/>
+                  <seg xml:id="d1e1124" xml:lang="mix">
+                     <w xml:id="d1e1125">saa</w>
+                     <w xml:id="d1e1127">nuu</w>
+                     <w xml:id="d1e1129">ntika</w>
+                  </seg>
+                  <seg xml:id="d1e1131" xml:lang="es">
+                     <w xml:id="d1e1132">chipe</w>
+                     <w xml:id="d1e1134">negrigris</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-73.png"/>
+                  <seg xml:id="d1e1138" xml:lang="mix">
+                     <w xml:id="d1e1139">saa</w>
+                     <w xml:id="d1e1141">ntiki</w>
+                     <w xml:id="d1e1143">luu</w>
+                  </seg>
+                  <seg xml:id="d1e1145" xml:lang="es">
+                     <w xml:id="d1e1146">chipe</w>
+                     <w xml:id="d1e1148">rey</w>
+                     <w xml:id="d1e1150">mexicano</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-74.png"/>
+                  <seg xml:id="d1e1154" xml:lang="mix">
+                     <w xml:id="d1e1155">saa</w>
+                     <w xml:id="d1e1157">ntiki</w>
+                     <w xml:id="d1e1159">naꞌnu</w>
+                  </seg>
+                  <seg xml:id="d1e1161" xml:lang="es">
+                     <w xml:id="d1e1162">papamoscas</w>
+                     <w xml:id="d1e1164">rayado</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p18 -->
+            <list>
+               <item>
+                  <graphic url="Aves-75.png"/>
+                  <seg xml:id="d1e1171" xml:lang="mix">
+                     <w xml:id="d1e1172">saa</w>
+                     <w xml:id="d1e1174">ntitsaꞌin</w>
+                  </seg>
+                  <seg xml:id="d1e1176" xml:lang="es">
+                     <w xml:id="d1e1177">paro</w>
+                     <w xml:id="d1e1179">embozalado</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-76.png"/>
+                  <seg xml:id="d1e1183" xml:lang="mix">
+                     <w xml:id="d1e1184">saa</w>
+                     <w xml:id="d1e1186">yaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e1188" xml:lang="mix">
+                     <w xml:id="d1e1189">saa</w>
+                     <w xml:id="d1e1191">kava</w>
+                  </seg>
+                  <seg xml:id="d1e1193" xml:lang="es">
+                     <w xml:id="d1e1194">troglodita</w>
+                     <w xml:id="d1e1196">saltapared</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-77.png"/>
+                  <seg xml:id="d1e1200" xml:lang="mix">
+                     <w xml:id="d1e1201">tsivii</w>
+                  </seg>
+                  <seg xml:id="d1e1203" xml:lang="mix">
+                     <w xml:id="d1e1204">saa</w>
+                     <w xml:id="d1e1206">ncheꞌen</w>
+                  </seg>
+                  <seg xml:id="d1e1208" xml:lang="es">
+                     <w xml:id="d1e1209">troglodita</w>
+                     <w xml:id="d1e1211">colinegro</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-78.png"/>
+                  <seg xml:id="d1e1215" xml:lang="mix">
+                     <w xml:id="d1e1216">saa</w>
+                     <w xml:id="d1e1218">nutoto</w>
+                  </seg>
+                  <seg xml:id="d1e1220" xml:lang="mix">
+                     <w xml:id="d1e1221">saa</w>
+                     <w xml:id="d1e1223">nuyuú</w>
+                  </seg>
+                  <seg xml:id="d1e1225" xml:lang="mix">
+                     <w xml:id="d1e1226">saa</w>
+                     <w xml:id="d1e1228">iꞌna</w>
+                  </seg>
+                  <seg xml:id="d1e1230" xml:lang="es">
+                     <w xml:id="d1e1231">troglodita</w>
+                     <w xml:id="d1e1233">saltaroca</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-79.png"/>
+                  <seg xml:id="d1e1237" xml:lang="mix">
+                     <w xml:id="d1e1238">xtii</w>
+                  </seg>
+                  <seg xml:id="d1e1240" xml:lang="es">
+                     <w xml:id="d1e1241">perlita</w>
+                     <w xml:id="d1e1243">azulgris</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-80.png"/>
+                  <seg xml:id="d1e1247" xml:lang="mix">
+                     <w xml:id="d1e1248">saa</w>
+                     <w xml:id="d1e1250">ncheꞌe</w>
+                  </seg>
+                  <seg xml:id="d1e1252" xml:lang="mix">
+                     <w xml:id="d1e1253">troglodita</w>
+                     <w xml:id="d1e1255">continental</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p19 -->
+            <list>
+               <item>
+                  <graphic url="Aves-81.png"/>
+                  <seg xml:id="d1e1262" xml:lang="mix">
+                     <w xml:id="d1e1263">nchoꞌo</w>
+                  </seg>
+                  <seg xml:id="d1e1265" xml:lang="es">
+                     <w xml:id="d1e1266">colibrí</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-82.png"/>
+                  <seg xml:id="d1e1270" xml:lang="mix">
+                     <w xml:id="d1e1271">saa</w>
+                     <w xml:id="d1e1273">iti</w>
+                  </seg>
+                  <seg xml:id="d1e1275" xml:lang="es">
+                     <w xml:id="d1e1276">mosquero</w>
+                     <w xml:id="d1e1278">cabezón</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-83.png"/>
+                  <seg xml:id="d1e1282" xml:lang="mix">
+                     <w xml:id="d1e1283">saa</w>
+                     <w xml:id="d1e1285">vikó</w>
+                  </seg>
+                  <seg xml:id="d1e1287" xml:lang="es">
+                     <w xml:id="d1e1288">reyezuelo</w>
+                     <w xml:id="d1e1290">sencillo</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-84.png"/>
+                  <seg xml:id="d1e1294" xml:lang="mix">
+                     <w xml:id="d1e1295">saa</w>
+                     <w xml:id="d1e1297">ntivilu</w>
+                  </seg>
+                  <seg xml:id="d1e1299" xml:lang="es">
+                     <w xml:id="d1e1300">chipe</w>
+                     <w xml:id="d1e1302">trepador</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-85.png"/>
+                  <seg xml:id="d1e1306" xml:lang="mix">
+                     <w xml:id="d1e1307">saa</w>
+                     <w xml:id="d1e1309">chavi</w>
+                  </seg>
+                  <seg xml:id="d1e1311" xml:lang="mix">
+                     <w xml:id="d1e1312">saa</w>
+                     <w xml:id="d1e1314">yavi</w>
+                  </seg>
+                  <seg xml:id="d1e1316" xml:lang="es">
+                     <w xml:id="d1e1317">matraca</w>
+                     <w xml:id="d1e1319">balseña</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-86.png"/>
+                  <seg xml:id="d1e1323" xml:lang="mix">
+                     <w xml:id="d1e1324">saa</w>
+                     <w xml:id="d1e1326">tintuyu</w>
+                  </seg>
+                  <seg xml:id="d1e1328" xml:lang="mix">
+                     <w xml:id="d1e1329">matraca</w>
+                     <w xml:id="d1e1331">barrada</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p20 -->
+            <list>
+               <item>
+                  <graphic url="Aves-87.png"/>
+                  <seg xml:id="d1e1338" xml:lang="mix">
+                     <w xml:id="d1e1339">saa</w>
+                     <w xml:id="d1e1341">ncheꞌe</w>
+                  </seg>
+                  <seg xml:id="d1e1343" xml:lang="mix">
+                     <w xml:id="d1e1344">saa</w>
+                     <w xml:id="d1e1346">liꞌva</w>
+                  </seg>
+                  <seg xml:id="d1e1348" xml:lang="mix">
+                     <w xml:id="d1e1349">saa</w>
+                     <w xml:id="d1e1351">pario</w>
+                  </seg>
+                  <seg xml:id="d1e1353" xml:lang="mix">
+                     <w xml:id="d1e1354">saa</w>
+                     <w xml:id="d1e1356">mario</w>
+                  </seg>
+                  <seg xml:id="d1e1358" xml:lang="es">
+                     <w xml:id="d1e1359">pinzón</w>
+                     <w xml:id="d1e1361">mexicano</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-88.png"/>
+                  <seg xml:id="d1e1365" xml:lang="mix">
+                     <w xml:id="d1e1366">taka</w>
+                     <w xml:id="d1e1368">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e1370" xml:lang="es">
+                     <w xml:id="d1e1371">trepador</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-89.png"/>
+                  <seg xml:id="d1e1375" xml:lang="mix">
+                     <w xml:id="d1e1376">saa</w>
+                     <w xml:id="d1e1378">pario</w>
+                  </seg>
+                  <seg xml:id="d1e1380" xml:lang="es">
+                     <w xml:id="d1e1381">gorrión</w>
+                     <w xml:id="d1e1383">doméstico</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-90.png"/>
+                  <seg xml:id="d1e1387" xml:lang="mix">
+                     <w xml:id="d1e1388">taka</w>
+                     <w xml:id="d1e1390">lunchi</w>
+                  </seg>
+                  <seg xml:id="d1e1392" xml:lang="es">
+                     <w xml:id="d1e1393">trepadorcito</w>
+                     <w xml:id="d1e1395">americano</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-91.png"/>
+                  <seg xml:id="d1e1399" xml:lang="mix">
+                     <w xml:id="d1e1400">saa</w>
+                     <w xml:id="d1e1402">icha</w>
+                  </seg>
+                  <seg xml:id="d1e1404" xml:lang="es">
+                     <w xml:id="d1e1405">gorrión</w>
+                     <w xml:id="d1e1407">arlequín</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p21 -->
+            <list>
+               <item>
+                  <graphic url="Aves-92.png"/>
+                  <seg xml:id="d1e1414" xml:lang="mix">
+                     <w xml:id="d1e1415">taka</w>
+                     <w xml:id="d1e1417">yaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e1419" xml:lang="es">
+                     <w xml:id="d1e1420">carpintero</w>
+                     <w xml:id="d1e1422">dorado</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-93.png"/>
+                  <seg xml:id="d1e1426" xml:lang="mix">
+                     <w xml:id="d1e1427">taka</w>
+                     <w xml:id="d1e1429">ntuxi</w>
+                  </seg>
+                  <seg xml:id="d1e1431" xml:lang="es">
+                     <w xml:id="d1e1432">carpintero</w>
+                     <w xml:id="d1e1434">aliblanco</w>
+                     <w xml:id="d1e1436">común</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-94.png"/>
+                  <seg xml:id="d1e1440" xml:lang="mix">
+                     <w xml:id="d1e1441">taka</w>
+                     <w xml:id="d1e1443">yutu</w>
+                  </seg>
+                  <seg xml:id="d1e1445" xml:lang="mix">
+                     <w xml:id="d1e1446">taka</w>
+                     <w xml:id="d1e1448">xini</w>
+                     <w xml:id="d1e1450">kuaꞌa</w>
+                  </seg>
+                  <seg xml:id="d1e1452" xml:lang="es">
+                     <w xml:id="d1e1453">carpintero</w>
+                     <w xml:id="d1e1455">mexicano</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-95.png"/>
+                  <seg xml:id="d1e1459" xml:lang="mix">
+                     <w xml:id="d1e1460">taka</w>
+                     <w xml:id="d1e1462">pintu</w>
+                     <w xml:id="d1e1464">nchaꞌi</w>
+                  </seg>
+                  <seg xml:id="d1e1466" xml:lang="es">
+                     <w xml:id="d1e1467">carpintero</w>
+                     <w xml:id="d1e1469">arlequín</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-96.png"/>
+                  <seg xml:id="d1e1473" xml:lang="mix">
+                     <w xml:id="d1e1474">taka</w>
+                     <w xml:id="d1e1476">ñuꞌu</w>
+                  </seg>
+                  <seg xml:id="d1e1478" xml:lang="es">
+                     <w xml:id="d1e1479">carpintero</w>
+                     <w xml:id="d1e1481">pechigrís</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p22 -->
+            <list>
+               <item>
+                  <graphic url="Aves-97.png"/>
+                  <seg xml:id="d1e1488" xml:lang="mix">
+                     <w xml:id="d1e1489">patu</w>
+                     <w xml:id="d1e1491">nchaꞌi</w>
+                  </seg>
+                  <seg xml:id="d1e1493" xml:lang="es">
+                     <w xml:id="d1e1494">zambullidor</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-98.png"/>
+                  <seg xml:id="d1e1498" xml:lang="mix">
+                     <w xml:id="d1e1499">sutu</w>
+                     <w xml:id="d1e1501">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1503" xml:lang="es">
+                     <w xml:id="d1e1504">martín</w>
+                     <w xml:id="d1e1506">pescador</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-99.png"/>
+                  <seg xml:id="d1e1510" xml:lang="mix">
+                     <w xml:id="d1e1511">saa</w>
+                     <w xml:id="d1e1513">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1515" xml:lang="es">
+                     <w xml:id="d1e1516">mosquero</w>
+                     <w xml:id="d1e1518">negro</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-100.png"/>
+                  <seg xml:id="d1e1522" xml:lang="mix">
+                     <w xml:id="d1e1523">saa</w>
+                     <w xml:id="d1e1525">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1527" xml:lang="es">
+                     <w xml:id="d1e1528">bisbita</w>
+                     <w xml:id="d1e1530">de</w>
+                     <w xml:id="d1e1532">agua</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div><!-- p23 -->
+            <list>
+               <item>
+                  <graphic url="Aves-101.png"/>
+                  <seg xml:id="d1e1539" xml:lang="mix">
+                     <w xml:id="d1e1540">chuun</w>
+                     <w xml:id="d1e1542">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1544" xml:lang="mix">
+                     <w xml:id="d1e1545">chuun</w>
+                     <w xml:id="d1e1547">ntucha</w>
+                  </seg>
+                  <seg xml:id="d1e1549" xml:lang="es">
+                     <w xml:id="d1e1550">gallareta</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-102.png"/>
+                  <seg xml:id="d1e1554" xml:lang="mix">
+                     <w xml:id="d1e1555">patu</w>
+                     <w xml:id="d1e1557">yuku</w>
+                  </seg>
+                  <seg xml:id="d1e1559" xml:lang="es">
+                     <w xml:id="d1e1560">garcita</w>
+                     <w xml:id="d1e1562">oscura</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-103.png"/>
+                  <seg xml:id="d1e1566" xml:lang="mix">
+                     <w xml:id="d1e1567">skuu</w>
+                     <w xml:id="d1e1569">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1571" xml:lang="mix">
+                     <w xml:id="d1e1572">xkuꞌu</w>
+                     <w xml:id="d1e1574">yucha</w>
+                  </seg>
+                  <seg xml:id="d1e1576" xml:lang="es">
+                     <w xml:id="d1e1577">ralo</w>
+                  </seg>
+                  <seg xml:id="d1e1579" xml:lang="es">
+                     <w xml:id="d1e1580">gallina</w>
+                     <w xml:id="d1e1582">de</w>
+                     <w xml:id="d1e1584">agua</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-104.png"/>
+                  <seg xml:id="d1e1588" xml:lang="mix">
+                     <w xml:id="d1e1589">sami</w>
+                  </seg>
+                  <seg xml:id="d1e1591" xml:lang="es">
+                     <w xml:id="d1e1592">garza</w>
+                  </seg>
+               </item>
+               <item>
+                  <graphic url="Aves-105.png"/>
+                  <seg xml:id="d1e1596" xml:lang="mix">
+                     <w xml:id="d1e1597">saa</w>
+                     <w xml:id="d1e1599">koo</w>
+                  </seg>
+                  <seg xml:id="d1e1601" xml:lang="es">
+                     <w xml:id="d1e1602">pájaro</w>
+                     <w xml:id="d1e1604">culebra</w>
+                  </seg>
+               </item>
+            </list>
+         </div>
+         <div>
+            <index><!-- 
+               <term>Chariki kuaan</term>.......................................... 16
+               Chumi lunchi............................................. 3
+               Chumi sai .................................................. 3
+               Chumi xini kaꞌnu ....................................... 3
+               Chuun ntucha .......................................... 23
+               Chuun yucha ........................................... 23
+               Chuun yuku............................................. 10
+               Kañuu...................................................... 10
+               Kasa kutu .................................................. 3 
+               Kiti yaꞌa..................................................... 4
+               Koni yuku................................................ 10
+               Korro ....................................................... 14
+               Kuili ........................................................ 12
+               Kukuvi ....................................................... 3
+               Lachacha ................................................. 10
+               Lakaan..................................................... 14
+               Lakuku ...................................................... 8
+               Lasimi...................................................... 11
+               Lasuꞌun.................................................... 11 
+               Letsa........................................................ 15
+               Litsi ........................................................... 4
+               Litu............................................................ 4
+               Lochi nchaꞌi............................................... 6
+               Lochi nii .................................................... 6
+               Nchoꞌo..................................................... 19
+               Nchuu kava ................................................9
+               Nchuu kuꞌu.................................................9 
+               Nchuu lunchi..............................................8
+               Nchuu ntsitsi pintu.....................................9
+               Nchuu nukuaꞌa ...........................................8
+               Nchuu tsaꞌa kuaꞌa.......................................8 
+               Nchuu xchila ..............................................9
+               Nchuu yaꞌa .................................................8
+               Nchuu yuku................................................8 
+               Ntikaan ....................................................14
+               Ntintatsa ..................................................14 
+               Ñaꞌmi yucha ...............................................5
+               Patu nchaꞌi ...............................................22 
+               Patu yuku.................................................23
+               Saa chavi ..................................................19
+               Saa chaꞌa ..................................................15
+               Saa friu.....................................................13
+               Saa icha....................................................20 
+               Saa iti.......................................................19 
+               Saa iꞌna ....................................................18
+               Saa kava ...................................................18
+               Saa koo.....................................................23
+               Saa krista..................................................16 
+               Saa kuaan...........................................16, 17
+               Saa kuaan ntipintu ...................................14
+               Saa kuaan xini kuaꞌa ................................15
+               Saa kuaꞌa..................................................15
+               Saa kula....................................................13
+               Saa kusu kiti luu.......................................15
+               Saa kuun savi ...........................................13
+               Saa lirru ...................................................16 
+               Saa liꞌva....................................................20 
+               Saa miꞌncha..............................................11 
+               Saa nchaa .................................................12
+               Saa nchaa yuku ........................................12 
+               Saa nchaꞌi...................................................7
+               Saa ncheꞌe ..........................................18, 20
+               Saa ncheꞌen ..............................................18
+               Saa ntaka..................................................11 
+               Saa ntakuatu ............................................12
+               Saa ntiki luu.............................................17
+               Saa ntiki naꞌnu .........................................17 
+               Saa ntitsaꞌin..............................................18 
+               Saa ntivilu ................................................19
+               Saa nutoto ................................................18 
+               Saa nuu kuꞌu ............................................17 
+               Saa nuu nchaa ..........................................12 
+               Saa nuu ntika ...........................................17
+               Saa nuu saꞌa .............................................16
+               Saa nuyuú ................................................18 
+               Saa ñuꞌma.................................................11
+               Saa pario ..................................................20
+               Saa pintu.................................................. 16
+               Saa tika yoko itu ...................................... 17 
+               Saa tintuyu .............................................. 19
+               Saa tirriti ................................................. 16
+               Saa tiꞌla...................................................... 7
+               Saa tsika nuu saꞌa kuaan .......................... 16
+               Saa tuli ...................................................... 7
+               Saa tusava................................................ 17
+               Saa veñuꞌu ............................................... 12
+               Saa vikó ................................................... 19
+               Saa vilu....................................................12
+               Saa xini tachi ........................................... 13
+               Saa yavi ................................................... 19 
+               Saa yaꞌa ................................................... 18
+               Saa yucha ................................................ 22
+               Sami......................................................... 23 
+               Sata............................................................ 8
+               Skuu yucha .............................................. 23 
+               Stiꞌin kuaan.............................................. 14 
+               Stiꞌin nchaa .............................................. 14 
+               Sutu yucha ............................................... 22
+               Taka lunchi .............................................. 20 
+               Taka ntuxi................................................ 21 
+               Taka ñuꞌu................................................. 21
+               Taka pintu nchaꞌi ..................................... 21 
+               Taka xini kuaꞌa ........................................ 21
+                --></index>
+         </div>
+         <spanGrp type="lexicalRelations"><!-- ? -->
+            <span type="synonym" target="#d1e46 #d1e48"/>
+            <!-- could also be regional differences though -->
+         </spanGrp>
+         <spanGrp type="sense"><!-- concept -->
+            <span target="#d1e44 #d1e46 #d1e48"
+                  corresp="http://dbpedia.org/page/Great_horned_owl"/>
+         </spanGrp>
+         <spanGrp type="decomposition">
+            <span target="#d1e44a" corresp="#chumi"/>
+            <!-- owl -->
+            <!-- point to canonical entry -->
+            <span target="#d1e44b" corresp="#ka'nu"/>
+            <!-- big -->
+            <!-- point to canonical entry -->
+            <span target="#d1e44c" corresp="#xini"/>
+            <!-- head -->
+            <!-- point to canonical entry -->
+         </spanGrp>
+      </body>
+   </text>
+</TEI>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<mime-type xmlns="http://www.freedesktop.org/standards/shared-mime-info" type="application/xml">
+  <!--Created automatically by update-mime-database. DO NOT EDIT!-->
+  <comment>XML document</comment>
+  <comment xml:lang="ar">مستند XML</comment>
+  <comment xml:lang="be@latin">Dakument XML</comment>
+  <comment xml:lang="bg">Документ — XML</comment>
+  <comment xml:lang="ca">document XML</comment>
+  <comment xml:lang="cs">dokument XML</comment>
+  <comment xml:lang="da">XML-dokument</comment>
+  <comment xml:lang="de">XML-Dokument</comment>
+  <comment xml:lang="el">Έγγραφο XML</comment>
+  <comment xml:lang="en_GB">XML document</comment>
+  <comment xml:lang="eo">XML-dokumento</comment>
+  <comment xml:lang="es">documento XML</comment>
+  <comment xml:lang="eu">XML dokumentua</comment>
+  <comment xml:lang="fi">XML-asiakirja</comment>
+  <comment xml:lang="fo">XML skjal</comment>
+  <comment xml:lang="fr">document XML</comment>
+  <comment xml:lang="ga">cáipéis XML</comment>
+  <comment xml:lang="gl">documento XML</comment>
+  <comment xml:lang="he">מסמך XML</comment>
+  <comment xml:lang="hr">XML dokument</comment>
+  <comment xml:lang="hu">XML dokumentum</comment>
+  <comment xml:lang="ia">Documento XML</comment>
+  <comment xml:lang="id">Dokumen XML</comment>
+  <comment xml:lang="it">Documento XML</comment>
+  <comment xml:lang="ja">XML ドキュメント</comment>
+  <comment xml:lang="kk">XML құжаты</comment>
+  <comment xml:lang="ko">XML 문서</comment>
+  <comment xml:lang="lt">XML dokumentas</comment>
+  <comment xml:lang="lv">XML dokuments</comment>
+  <comment xml:lang="nb">XML-dokument</comment>
+  <comment xml:lang="nl">XML-document</comment>
+  <comment xml:lang="nn">XML-dokument</comment>
+  <comment xml:lang="oc">document XML</comment>
+  <comment xml:lang="pl">Dokument XML</comment>
+  <comment xml:lang="pt">documento XML</comment>
+  <comment xml:lang="pt_BR">Documento XML</comment>
+  <comment xml:lang="ro">Document XML</comment>
+  <comment xml:lang="ru">документ XML</comment>
+  <comment xml:lang="sk">Dokument XML</comment>
+  <comment xml:lang="sl">Dokument XML</comment>
+  <comment xml:lang="sq">Dokument XML</comment>
+  <comment xml:lang="sr">ИксМЛ документ</comment>
+  <comment xml:lang="sv">XML-dokument</comment>
+  <comment xml:lang="tr">XML belgesi</comment>
+  <comment xml:lang="uk">документ XML</comment>
+  <comment xml:lang="vi">Tài liệu XML</comment>
+  <comment xml:lang="zh_CN">XML 文档</comment>
+  <comment xml:lang="zh_TW">XML 文件</comment>
+  <acronym>XML</acronym>
+  <expanded-acronym>eXtensible Markup Language</expanded-acronym>
+  <sub-class-of type="text/plain"/>
+  <generic-icon name="text-html"/>
+  <glob pattern="*.xml"/>
+  <glob pattern="*.xbl"/>
+  <glob pattern="*.xsd"/>
+  <glob pattern="*.rng"/>
+  <alias type="text/xml"/>
+</mime-type>
+
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<!-- autogenerated by fdtrans v51.16 -->
+<library name="expat" basename="ExpatBase" basetype="Library" openname="expat.library">
+	<include>libraries/expat.h</include>
+	<interface name="main" version="1.0" struct="ExpatIFace" prefix="_Expat_" asmprefix="IExpat" global="IExpat">
+		<method name="Obtain" result="uint32"/>
+		<method name="Release" result="uint32"/>
+		<method name="Expunge" result="void" status="unimplemented"/>
+		<method name="Clone" result="struct Interface *" status="unimplemented"/>
+		<method name="XML_ParserCreate" result="XML_Parser">
+			<arg name="encodingName" type="const XML_Char *"/>
+		</method>
+		<method name="XML_ParserCreateNS" result="XML_Parser">
+			<arg name="encodingName" type="const XML_Char *"/>
+			<arg name="nsSep" type="XML_Char"/>
+		</method>
+		<method name="XML_ParserCreate_MM" result="XML_Parser">
+			<arg name="encoding" type="const XML_Char *"/>
+			<arg name="memsuite" type="const XML_Memory_Handling_Suite *"/>
+			<arg name="namespaceSeparator" type="const XML_Char *"/>
+		</method>
+		<method name="XML_ExternalEntityParserCreate" result="XML_Parser">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="context" type="const XML_Char *"/>
+			<arg name="encoding" type="const XML_Char *"/>
+		</method>
+		<method name="XML_ParserFree" result="void">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_Parse" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="s" type="const char *"/>
+			<arg name="len" type="int"/>
+			<arg name="isFinal" type="int"/>
+		</method>
+		<method name="XML_ParseBuffer" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="len" type="int"/>
+			<arg name="isFinal" type="int"/>
+		</method>
+		<method name="XML_GetBuffer" result="void *">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="len" type="int"/>
+		</method>
+		<method name="XML_SetStartElementHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartElementHandler"/>
+		</method>
+		<method name="XML_SetEndElementHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="end" type="XML_EndElementHandler"/>
+		</method>
+		<method name="XML_SetElementHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartElementHandler"/>
+			<arg name="end" type="XML_EndElementHandler"/>
+		</method>
+		<method name="XML_SetCharacterDataHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_CharacterDataHandler"/>
+		</method>
+		<method name="XML_SetProcessingInstructionHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_ProcessingInstructionHandler"/>
+		</method>
+		<method name="XML_SetCommentHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_CommentHandler"/>
+		</method>
+		<method name="XML_SetStartCdataSectionHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartCdataSectionHandler"/>
+		</method>
+		<method name="XML_SetEndCdataSectionHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="end" type="XML_EndCdataSectionHandler"/>
+		</method>
+		<method name="XML_SetCdataSectionHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartCdataSectionHandler"/>
+			<arg name="end" type="XML_EndCdataSectionHandler"/>
+		</method>
+		<method name="XML_SetDefaultHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_DefaultHandler"/>
+		</method>
+		<method name="XML_SetDefaultHandlerExpand" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_DefaultHandler"/>
+		</method>
+		<method name="XML_SetExternalEntityRefHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_ExternalEntityRefHandler"/>
+		</method>
+		<method name="XML_SetExternalEntityRefHandlerArg" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="arg" type="void *"/>
+		</method>
+		<method name="XML_SetUnknownEncodingHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_UnknownEncodingHandler"/>
+			<arg name="data" type="void *"/>
+		</method>
+		<method name="XML_SetStartNamespaceDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartNamespaceDeclHandler"/>
+		</method>
+		<method name="XML_SetEndNamespaceDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="end" type="XML_EndNamespaceDeclHandler"/>
+		</method>
+		<method name="XML_SetNamespaceDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartNamespaceDeclHandler"/>
+			<arg name="end" type="XML_EndNamespaceDeclHandler"/>
+		</method>
+		<method name="XML_SetXmlDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_XmlDeclHandler"/>
+		</method>
+		<method name="XML_SetStartDoctypeDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartDoctypeDeclHandler"/>
+		</method>
+		<method name="XML_SetEndDoctypeDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="end" type="XML_EndDoctypeDeclHandler"/>
+		</method>
+		<method name="XML_SetDoctypeDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="start" type="XML_StartDoctypeDeclHandler"/>
+			<arg name="end" type="XML_EndDoctypeDeclHandler"/>
+		</method>
+		<method name="XML_SetElementDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="eldecl" type="XML_ElementDeclHandler"/>
+		</method>
+		<method name="XML_SetAttlistDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="attdecl" type="XML_AttlistDeclHandler"/>
+		</method>
+		<method name="XML_SetEntityDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_EntityDeclHandler"/>
+		</method>
+		<method name="XML_SetUnparsedEntityDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_UnparsedEntityDeclHandler"/>
+		</method>
+		<method name="XML_SetNotationDeclHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_NotationDeclHandler"/>
+		</method>
+		<method name="XML_SetNotStandaloneHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_NotStandaloneHandler"/>
+		</method>
+		<method name="XML_GetErrorCode" result="enum XML_Error">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_ErrorString" result="const XML_LChar *">
+			<arg name="code" type="enum XML_Error"/>
+		</method>
+		<method name="XML_GetCurrentByteIndex" result="long">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetCurrentLineNumber" result="int">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetCurrentColumnNumber" result="int">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetCurrentByteCount" result="int">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetInputContext" result="const char *">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="offset" type="int *"/>
+			<arg name="size" type="int *"/>
+		</method>
+		<method name="XML_SetUserData" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="userData" type="void *"/>
+		</method>
+		<method name="XML_DefaultCurrent" result="void">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_UseParserAsHandlerArg" result="void">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_SetBase" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="base" type="const XML_Char *"/>
+		</method>
+		<method name="XML_GetBase" result="const XML_Char *">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetSpecifiedAttributeCount" result="int">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetIdAttributeIndex" result="int">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_SetEncoding" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="encoding" type="const XML_Char *"/>
+		</method>
+		<method name="XML_SetParamEntityParsing" result="int">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="parsing" type="enum XML_ParamEntityParsing"/>
+		</method>
+		<method name="XML_SetReturnNSTriplet" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="do_nst" type="int"/>
+		</method>
+		<method name="XML_ExpatVersion" result="const XML_LChar *">
+		</method>
+		<method name="XML_ExpatVersionInfo" result="XML_Expat_Version">
+		</method>
+		<method name="XML_ParserReset" result="XML_Bool">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="encoding" type="const XML_Char *"/>
+		</method>
+		<method name="XML_SetSkippedEntityHandler" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="handler" type="XML_SkippedEntityHandler"/>
+		</method>
+		<method name="XML_UseForeignDTD" result="enum XML_Error">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="useDTD" type="XML_Bool"/>
+		</method>
+		<method name="XML_GetFeatureList" result="const XML_Feature *">
+		</method>
+		<method name="XML_StopParser" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="resumable" type="XML_Bool"/>
+		</method>
+		<method name="XML_ResumeParser" result="enum XML_Status">
+			<arg name="parser" type="XML_Parser"/>
+		</method>
+		<method name="XML_GetParsingStatus" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="status" type="XML_ParsingStatus *"/>
+		</method>
+		<method name="XML_FreeContentModel" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="model" type="XML_Content *"/>
+		</method>
+		<method name="XML_MemMalloc" result="void *">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="size" type="size_t"/>
+		</method>
+		<method name="XML_MemRealloc" result="void *">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="ptr" type="void *"/>
+			<arg name="size" type="size_t"/>
+		</method>
+		<method name="XML_MemFree" result="void">
+			<arg name="parser" type="XML_Parser"/>
+			<arg name="ptr" type="void *"/>
+		</method>
+	</interface>
+</library>
+
+
